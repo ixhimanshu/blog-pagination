@@ -18,7 +18,7 @@
 
 .title{
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background: #efefef;
     padding: 1rem;
 }
@@ -50,3 +50,11 @@
   }
   
   .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .next:after{
+      content: ">>";
+  }
+
+  .prev:before{
+      content: "<<";
+  }
