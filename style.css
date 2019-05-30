@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-ui{
+    width: 20%;
+    box-shadow: 0 0px 4px #ccc;
+    margin: 1rem 0.5rem;
+}
+
+.title{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    background: #efefef;
+    padding: 1rem;
+}
+
+.body{
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    border-top: 1px solid;
+    padding: 1rem;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
